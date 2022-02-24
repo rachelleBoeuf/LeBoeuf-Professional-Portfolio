@@ -24,21 +24,23 @@ html {
     font-size: 62.5%;
 }
 
-h1,
-h2,
-h3,
-h4,
+h1
  {
   margin-bottom: 0.625rem;
   padding-left: 20px;
-  color: var(--black);
+  text-decoration:(double);
   font-weight: 700;
   line-height: 1.1;
+ 
  }
+
+
 
  h1 {
    
     font-size: 10rem;
+    color: var(--black)
+    
     
   }
   
@@ -130,9 +132,7 @@ h4,
     box-shadow: inset 0px 0px 8px var(--black), 0 0 15px var(--black);
   }
   
- 
 
- 
   @media screen and (min-width: 768px) {
    
     .card-column {
@@ -161,17 +161,6 @@ h4,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* converted ul>li to nav */
 
 .header nav {
@@ -183,8 +172,8 @@ h4,
 }
 /* styling hyperlinks */
 
-nav a {
-    display: inline-block;
+nav {
+    display: -ms-inline-flexbox;
     margin-left: 25px;
 }
 
